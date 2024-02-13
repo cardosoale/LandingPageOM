@@ -14,12 +14,18 @@
     justify-content: center;
 }
 
-.intro-text-content h2 {
-    line-height: 1;
-    margin-bottom: 6rem;
-}
-
-.intro-img img {
+.intro-img img,
+.intro-img svg {
     max-width: 100%;
     height: auto;
+}
+
+.top3-content {
+    max-width: 64rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
 }
